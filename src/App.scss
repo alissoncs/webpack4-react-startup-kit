@@ -1,0 +1,31 @@
+// Core variables and mixins
+
+// Core variables and mixins
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+// Reset and dependencies
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+
+// Core CSS
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+* {
+    font-family: inherit;
+}
+button,
+input,
+a {
+  cursor: pointer;
+  &:focus {
+    outline: 0 none;
+  }
+}

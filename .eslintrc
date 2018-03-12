@@ -1,0 +1,10 @@
+{
+    "ecmaFeatures": {
+        "modules": false
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "globalReturn": false
+        }
+    }
+}

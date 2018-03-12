@@ -1,0 +1,18 @@
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+@mixin md-min {
+    @media(min-width: $screen-md-min) {
+        @content;
+    }
+}
+@mixin lg-min {
+    @media(min-width: $screen-lg-min) {
+        @content;
+    }
+}
+@mixin sm-min {
+    @media(min-width: $screen-sm-min) {
+        @content;
+    }
+}
